@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int a=0;
+	
+	printf("que ano desea saber si es bisiesto:");
+	scanf("%d", &a);
+	
+	if ((a%4==0 && a%100!=0)||a%400==0)
+	{
+		printf("\033[1;32mEs bisiesto\033[0m");
+	}
+	
+	else 
+	{
+		printf("No es bisiesto");
+	}
+	
+	return 0; 
+}

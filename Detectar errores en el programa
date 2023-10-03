@@ -7,7 +7,7 @@ int n1, n2, resultado, suma;
 	scanf("%d",&n1);
 	printf("Introduzca otro numero:\n");
 	scanf("%d",&n2);
-	printf("Cuanto suman?:\n");
+	printf("Cuanto suman?\n");
 	scanf("%d",&suma);
 	resultado = n1 + n2;
 
